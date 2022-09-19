@@ -1,0 +1,110 @@
+body {
+            background-image: url(https://cdn.pixabay.com/photo/2016/06/24/15/48/pattern-1477380__480.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+      }
+
+      h1 {
+          background-color:#a66782;
+          color: white;
+          text-align: center;
+          padding: 15px;
+          border-bottom: 10px solid lightpink;
+          border-top: 10px solid lightpink;
+          margin: 60px;
+          border-radius: 50px;
+          width: 75%;
+          margin: 0 auto;
+          font-size: 4rem;
+          font-family: 'Sofia' ;
+
+      }
+
+      img {
+          border: 10px solid lightpink;
+          padding: 5px;
+          border-radius: 50px;
+          max-width: 100%;
+          height: auto;
+      }
+
+      main { 
+        background-color:#fadeea;
+        padding: 50px;
+        border: 10px solid lightpink;
+        border-radius: 50px;
+        margin: 40px;
+        font-size: 2rem;
+       }
+
+      a {
+        color: purple;
+      }
+
+      ul {
+        background-color: #ebd1e5;
+        border: 5px solid lightpink;
+        border-radius: 50px;
+        color: #a66782;
+        width: 75%;
+      }
+
+      ol {
+        background-color: #ebd1e5;
+        border: 5px solid lightpink;
+        border-radius: 50px;
+        color: #a66782;
+      }
+
+      h3 {
+        color:#a66782;
+        background-color:#ebd1e5;
+        border: 5px solid lightpink;
+        border-radius: 50px;
+        width: 85%;
+        font-family: 'Sofia' ;
+
+      }
+
+      h2 {
+        color: #a66782;
+        font-family: 'Sofia' ;
+
+      }
+
+      button {
+        background-color:#c793bb;
+        border: 5px solid lightpink;
+        border-radius: 50px;
+        color: white;
+      }
+
+      legend {
+        background-color: lightpink;
+        color: #a66782;
+        border: 5px solid lightpink;
+        border-radius: 50px;
+      }
+
+      fieldset {
+        background-color: #ebd1e5;
+        border: 5px solid lightpink;
+        border-radius: 50px;
+        color: #a66782;
+      }
+
+      footer {
+        color: #a66782;
+        background-color: #ebd1e5;
+        border: 5px solid lightpink;
+        border-radius: 50px;
+        margin: 60px;
+      }
+
+      figcaption {
+        color: #a66782;
+      }
+
+      p {
+        color: #a66782;
+      }

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> SURVEY FORM</title>
+    <style>
+
+      body {
+          background-image: url(https://cdn.pixabay.com/photo/2015/09/29/18/54/big-sur-964331__480.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+
+
+      h1 {
+        background-color: #a8c5e3;
+        color: #234669;
+        text-align: center;
+      }
+
+
+      main {
+        background-color: rgb(190, 189, 240,.3);
+        text-align: center;
+        color: #234669;
+      }
+
+      p {
+        color: #234669;
+        background-color: #a8c5e3;
+        text-align: center;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+    <h1 id="title"> CSUMB SURVEY</h1>
+    <p id="description"> This survey is intended to recieve feedback on CSUMB. 
+    We want to know who you are and what you think about our school.</p>
+    </header>
+    <main>
+      <form id="survey-form">
+        <label for="name" id="name-label"> Please enter your name:</label>
+        <input id="name" type="text" required placeholder="name">
+          <br>
+        <label for="email" id="email-label"> Please enter your email:</label>
+        <input id="email" type="email" required placeholder="email">
+          <br>
+        <label for="number" id="number-label"> Please enter your age:</label>
+        <input id="number" type="number" min="1" max="100" required placeholder="age">
+          <br>
+        <label for="dropdown"> what year are you?
+        <select id="dropdown">
+          <option> freshman </option>
+          <option> sophmore </option>
+          <option> junior </option>
+          <option> senior </option>
+        </select>
+          <br>
+        <label> Gender: </label>
+        <input type="radio"name="radio-group" id="female" value="female"
+        <label for="female"> Female</label>
+        <input type="radio"name="radio-group" id="male" value="male"
+        <label for="male"> Male</label>
+        <input type="radio"name="radio-group" id="other" value="other"
+        <label for="other"> Other</label>
+          <br>
+        <label> Do you like sea otters: </label>
+        <input type="checkbox" value= yes id="yes"> <label="yes">yes</label>
+        </label>
+        <input type="checkbox" value= no id="no"> <label="no">no</label>
+          <br>
+<textarea> additional feedback:
+</textarea>
+        
+        <input id="submit" type="submit">
+  </form>
+  </main>
+  </body>
+</html>
